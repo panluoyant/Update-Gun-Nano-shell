@@ -44,6 +44,8 @@ sleep 3s
 make
 make install
 echo "安装完毕，准备替换原有文件"
+echo "添加代码高亮功能"
+for file in /usr/share/nano/*.nanorc; do echo "include $file" >> ~/.nanorc; done
 sleep 2s
 echo "备份原有文件"
 echo "mv /usr/bin/nano /usr/bin/nano.bak"
