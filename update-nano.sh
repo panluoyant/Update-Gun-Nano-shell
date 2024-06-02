@@ -28,6 +28,9 @@ echo "必要库安装完毕"
 echo "下载nano源代码包"
 echo "wget https://www.nano-editor.org/dist/v8/nano-8.0.tar.xz"
 wget https://www.nano-editor.org/dist/v8/nano-8.0.tar.xz
+#国内下载链接
+#wget https://mirrors.huaweicloud.com/gnu/nano/nano-8.0.tar.gz
+#wgethttps://mirrors.huaweicloud.com/gnu/nano/nano-8.0.tar.xz
 #解压源码包
 echo "解压源码包"
 unxz nano-8.0.tar.xz
